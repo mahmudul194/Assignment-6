@@ -14,9 +14,12 @@ function App() {
     <>
       <div className="min-h-screen bg-white font-sans text-gray-900">
         <Navbar cartCount={cart.length} setView={setView} />
+        <main>
+          <Banner setView={setView} />
+        </main>
       </div>
     </>
   )
 }
 
-export default App
+export default App;
