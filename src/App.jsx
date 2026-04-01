@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Banner from './components/Banner';
 import ProductSection from './components/ProductSection';
 import ProductCard from './components/ProductCard';
+import CartView from './components/CartView';
 import './App.css'
 
 function App() {
