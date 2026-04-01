@@ -2,6 +2,7 @@ import { useState,useEffect } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import Navbar from './components/Navbar'
 import Banner from './components/Banner';
+import Stats from './components/Stats';
 import ProductSection from './components/ProductSection';
 import ProductCard from './components/ProductCard';
 import CartView from './components/CartView';
@@ -96,6 +97,7 @@ function App() {
         <Steps />
         <Pricing />
         </main>
+        <ToastContainer/>
       </div>
     </>
   )
