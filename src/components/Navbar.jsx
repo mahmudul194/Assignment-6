@@ -19,7 +19,7 @@ export default function Navbar({ cartCount, setView }) {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-white border border-gray-100 text-[#374151] rounded-box z-1 mt-3 w-52 p-2 shadow-lg flex gap-2">
+              className="menu menu-sm dropdown-content bg-white border border-gray-100 text-[#374151] rounded-box z-1 mt-3 w-52 p-2 shadow-lg lg:hidden flex gap-2">
               <li><a className="hover:text-[#7C3AED] hover:bg-gray-50 active:bg-gray-100">Products</a></li>
               <li><a className="hover:text-[#7C3AED] hover:bg-gray-50 active:bg-gray-100">Features</a></li>
               <li><a className="hover:text-[#7C3AED] hover:bg-gray-50 active:bg-gray-100">Pricing</a></li>
