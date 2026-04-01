@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Navbar from './components/Navbar'
-
+import Banner from './components/Banner';
+import Stats from './components/Stats';
 
 import './App.css'
 
@@ -16,6 +17,7 @@ function App() {
         <Navbar cartCount={cart.length} setView={setView} />
         <main>
           <Banner setView={setView} />
+          <Stats />
         </main>
       </div>
     </>
