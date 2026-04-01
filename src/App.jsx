@@ -91,6 +91,8 @@ function App() {
             />
           )}
         </ProductSection>
+        <Steps />
+        <Pricing />
         </main>
       </div>
     </>
