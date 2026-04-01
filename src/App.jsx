@@ -7,6 +7,7 @@ import ProductCard from './components/ProductCard';
 import CartView from './components/CartView';
 import Steps from './components/Steps';
 import Pricing from './components/Pricing';
+import Footer from './components/Footer';
 import './App.css'
 
 function App() {
