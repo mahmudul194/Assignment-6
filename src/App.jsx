@@ -6,6 +6,7 @@ import ProductSection from './components/ProductSection';
 import ProductCard from './components/ProductCard';
 import CartView from './components/CartView';
 import Steps from './components/Steps';
+import Pricing from './components/Pricing';
 import './App.css'
 
 function App() {
