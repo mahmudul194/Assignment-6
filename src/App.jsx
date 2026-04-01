@@ -97,6 +97,8 @@ function App() {
         <Steps />
         <Pricing />
         </main>
+
+        <Footer/>
         <ToastContainer/>
       </div>
     </>
