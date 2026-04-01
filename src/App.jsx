@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
 import Navbar from './components/Navbar'
 import Banner from './components/Banner';
 import ProductSection from './components/ProductSection';
