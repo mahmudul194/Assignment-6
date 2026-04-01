@@ -1,4 +1,4 @@
-# 🚀 DigiTools - Premium Digital Tools Dashboard
+# 🚀 DigiTools - Digital Tools Buying Website
 ## 📖 Overview
 DigiTools is a stunning, highly responsive product dashboard designed to offer users a curated collection of premium digital tools. Built with a modern, glassmorphic aesthetic and vibrant color palette, the application provides an immersive experience. Users can seamlessly browse a dynamically loaded product catalog, manage their selections within a built-in cart, and simulate a smooth checkout experience. 
 
