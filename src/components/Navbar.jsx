@@ -55,7 +55,7 @@ export default function Navbar({ cartCount, setView }) {
           <a className="cursor-pointer hidden sm:block text-[#374151] font-medium text-[15px] hover:text-[#7C3AED] transition-colors">
             Login
           </a>
-          <button className="bg-[#7C3AED] hover:bg-[#6D28D9] text-white rounded-full px-6 md:px-8 h-10 md:h-12 text-[14px] md:text-[15px] font-semibold transition-colors shadow-sm ml-1 md:ml-2">
+          <button className="bg-[#7C3AED] hover:bg-[#6D28D9] cursor-pointer text-white rounded-full px-6 md:px-8 h-10 md:h-12 text-[14px] md:text-[15px] font-semibold transition-colors shadow-sm ml-1 md:ml-2">
             Get Started
           </button>
         </div>
