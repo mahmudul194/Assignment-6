@@ -1,16 +1,16 @@
-# React + Vite
+# 🚀 DigiTools - Premium Digital Tools Dashboard
+## 📖 Overview
+DigiTools is a stunning, highly responsive product dashboard designed to offer users a curated collection of premium digital tools. Built with a modern, glassmorphic aesthetic and vibrant color palette, the application provides an immersive experience. Users can seamlessly browse a dynamically loaded product catalog, manage their selections within a built-in cart, and simulate a smooth checkout experience. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ⚙️ Technologies Used
+- **React.js** 
+- **Tailwind CSS v4** 
+- **DaisyUI** 
+- **JavaScript (ES6+)**
+- **React-Toastify** 
+- **Vite**
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Core Features
+1. **Dynamic Data Fetching**: Products are dynamically loaded from a scalable `products.json` file, mimicking a real-world backend API response. 
+2. **Interactive State Management**: Complete Cart module with real-time total calculation. Products can be added, optionally prevented from duplicate entry (with dynamic Toast warnings), and removed with instant UI updates.
+3. **Seamless Notifications & Toggling**: Fully utilizes `react-toastify` for rich user feedback upon interactions. Includes smooth transitions between a 3-column customizable 'Products' view and a refined 'Cart' view without page reloads.
