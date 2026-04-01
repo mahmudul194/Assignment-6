@@ -1,9 +1,8 @@
 import { useState } from 'react';
 import Navbar from './components/Navbar'
 import Banner from './components/Banner';
-import Stats from './components/Stats';
 import ProductSection from './components/ProductSection';
-
+import ProductCard from './components/ProductCard';
 import './App.css'
 
 function App() {
